@@ -14,8 +14,63 @@ header style
    gap: 50px;
    font-size: 18px;
    margin-top: 35px;
- 
+}
+.container {
+  
+}
+ /* -----------
+ banner styles 
+ -------------*/
+ .banner-title{
+    text-align: center;
+    color:  #131313;
+    font-weight: 700px;
+    font-size: 20px;
    
- 
+ }
+ .banner-sub-title{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+   
+ }
 
+ /*-------------------
+ button primary styles
+ ---------------------*/
+.btn-primary{
+  background-color:  #FF900E;
+  border: none;
+ font-size: 20px;
+ color:  #FFFFFF;
+ text-align: center;
+padding: 10px;
+ border-radius:5px;
+ margin-left: 500px;
+}
+.banner-img {
+ 
+    padding: 20px;
+}
+
+
+.middle-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-left: 40px;
+}
+.middle-img, img{
+    width: 220px;
+   height: 220px;
+}
+.middle-text{
+    display: flex;
+    
+  
+    color: 
+    #FF900E;
+}
+.sub-text{
+    color: #727272;
 }
