@@ -1,0 +1,21 @@
+/*--------- 
+header style 
+-------------*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+/* navbar style */
+.nav-bar{
+    color:  #424242;
+    display: flex;
+   gap: 50px;
+   font-size: 18px;
+   margin-top: 35px;
+ 
+   
+ 
+
+}
