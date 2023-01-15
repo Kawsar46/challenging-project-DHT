@@ -16,7 +16,7 @@ header style
    margin-top: 35px;
 }
 .container {
-  
+
 }
  /* -----------
  banner styles 
@@ -55,10 +55,7 @@ padding: 10px;
 
 
 .middle-img{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
-    margin-left: 40px;
+   
 }
 .middle-img, img{
     width: 220px;
@@ -73,4 +70,22 @@ padding: 10px;
 }
 .sub-text{
     color: #727272;
+}
+.footer{
+   display: flex;
+  padding: 40px;
+  
+}
+.tech-com{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    size: 5px;
+    font-size: 10px;
+   
+}
+.copywrite{
+    margin-bottom: 10px;
+    background-color:#FFF4E7; 
+    border-radius: 8px;
 }
